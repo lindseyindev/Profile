@@ -8,7 +8,7 @@ body {
 /*if i want CSS applied to the page section, likely background color*/
 }
 
-
+/*formatting the header to cover the content inside*/
 header {
     background-color: #334E58AD;
     width: 100%;
@@ -24,10 +24,9 @@ h1 {
     padding: 15px;
     font-family: 'Julius Sans One', sans-serif;
     color: #40434E;
-    
 }
 
-/*formatting of the navigation links in the header*/
+/*formatting of the navigation links in the header and making them in a visible box*/
 nav {
     color: #40434E;
     background-color: #F7F9F9;
@@ -40,7 +39,6 @@ nav {
     box-sizing: content-box;
 }
 
-/*Need CSS for Links?*/
 
 h3 {
 color: #4D2E3E;
@@ -50,7 +48,7 @@ margin: 3px;
 font-size: 16px;
 }
 
-/*Need CSS for image? */
+/*Real image needs to be added later and formatted*/
 
 main {
     background-color: #273F2D66;
@@ -83,6 +81,8 @@ a:hover {
     color: blue;
   }
 
+  /*formatting of the text in the main section*/
+
 article {
     padding: 10px 15px;
     border-radius: 15px; 
@@ -93,11 +93,13 @@ article {
     text-align: justify;
     color: #40434E;
 }
+
+/*padding here to allow more space between sections*/
+
 section {
     padding-top: 25px;
     padding-bottom: 25px;
 }
-
 
 h2 {
     font-family: 'Julius Sans One', sans-serif;
@@ -125,17 +127,7 @@ li {
     padding: 0px;
 }
  
-/*Contact me link may need CSS here */
-
-/*What CSS code can i apply to the rulers? */
-hr {
-    margin: 0px;
-    padding: 0px;
-}
-
-/*CSS has thus far followed HTML, there is a repeating article & nested HTML elements that will apply the same style as the previous article*/
-
-/*Ordered list code to center the contact list*/
+/*Ordered list to indent and keep numbers with text*/
 ol {
     font-family: 'Monda', sans-serif;
     text-indent: 300px;
@@ -143,6 +135,7 @@ ol {
     
 }
 
+/*footer designed to mirror the header*/
 footer {
     background-color: #334E58DE;
     text-align: center;
@@ -154,9 +147,8 @@ footer {
     padding-top: 25px;
 }
 
+/*padding to center the copyright info in the footer*/
 footer > p {
     margin: 0px;
     padding-bottom: 25px;
 }
-
-/*May need to add an ID attribute to the p in footer if i want text to be different than the other p*/
