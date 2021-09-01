@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Monda&display=swap');
+/*If i want CSS applied to the entire web page*/
+}
+
+body {
+    text-align: center;
+  
+/*if i want CSS applied to the page section, likely background color*/
+}
+
+
+header {
+    background-color: #334E58AD;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-size: 35px;
+    margin: 0px;
+    padding: 15px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: #40434E;
+    
+}
+
+/*formatting of the navigation links in the header*/
+nav {
+    color: #40434E;
+    background-color: #F7F9F9;
+    padding: 10px 15px;
+    border-radius: 15px; 
+    max-width: 35%;
+    font-family: 'Monda', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+}
+
+/*Need CSS for Links?*/
+
+h3 {
+color: #4D2E3E;
+font-family: 'Monda', sans-serif;
+padding: 15px;
+margin: 3px;
+font-size: 16px;
+}
+
+/*Need CSS for image? */
+
+main {
+    background-color: #273F2D66;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+div {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/*Styling links*/
+a:link {
+    color: #4D2E3E;
+}
+a:visited {
+    color: #273F2D;
+}
+a:hover {
+    color: #AB7390;
+  }
+  
+  a:active {
+    color: blue;
+  }
+
+article {
+    padding: 10px 15px;
+    border-radius: 15px; 
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: content-box;
+    text-align: justify;
+    color: #40434E;
+}
+section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+h2 {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    color: #40434E;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+p {
+    font-family: 'Monda', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+ 
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+    font-family: 'Monda', sans-serif;
+}
+
+/*code for the individual list items will cover both UL and OL unless differentiated*/
+li {
+    font-family: 'Monda', sans-serif;
+    padding: 0px;
+}
+ 
+/*Contact me link may need CSS here */
+
+/*What CSS code can i apply to the rulers? */
+hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*CSS has thus far followed HTML, there is a repeating article & nested HTML elements that will apply the same style as the previous article*/
+
+/*Ordered list code to center the contact list*/
+ol {
+    font-family: 'Monda', sans-serif;
+    text-indent: 300px;
+    list-style-position: inside;
+    
+}
+
+footer {
+    background-color: #334E58DE;
+    text-align: center;
+    color: #4D2E3E;
+    font-family: 'Monda', sans-serif;
+    width: 100%;
+    height: 60px;
+    margin: 0px;
+    padding-top: 25px;
+}
+
+footer > p {
+    margin: 0px;
+    padding-bottom: 25px;
+}
+
+/*May need to add an ID attribute to the p in footer if i want text to be different than the other p*/
