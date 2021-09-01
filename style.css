@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Monda&display=swap');
 /*If i want CSS applied to the entire web page*/
-}
 
-body {
-    text-align: center;
-  
-/*if i want CSS applied to the page section, likely background color*/
+
+/*body {
+    
 }
+*/
+
+
 
 /*formatting the header to cover the content inside*/
 header {
@@ -40,7 +41,7 @@ nav {
     letter-spacing: 2px;
 }
 
-h3 {
+.subheading {
 color: #4D2E3E;
 font-family: 'Monda', sans-serif;
 padding: 15px;
@@ -48,13 +49,10 @@ margin: 3px;
 font-size: 16px;
 }
 
-/*Real image needs to be added later and formatted*/
-
 main {
     background-color: #273F2D66;
     padding-top: 25px;
     padding-bottom: 25px;
-
 }
 
 div {
@@ -123,14 +121,13 @@ ul {
 /*code for the individual list items will cover both UL and OL unless differentiated*/
 li {
     font-family: 'Monda', sans-serif;
-    padding: 0px;
 }
  
 /*Ordered list to indent and keep numbers with text*/
 ol {
     font-family: 'Monda', sans-serif;
-    text-indent: 300px;
     list-style-position: inside;
+    text-indent: 40%;
     
 }
 
