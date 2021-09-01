@@ -61,7 +61,7 @@ div {
     display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   text-align: center;
   padding-top: 30px;
 }
@@ -83,22 +83,21 @@ a:hover {
 
   /*formatting of the text in the main section*/
 
+
+  /*using percentages as values to make my website more to screen size and resolution, these values are used to center the main text content*/
 article {
-    padding: 10px 15px;
-    border-radius: 15px; 
-    max-width: 50%;
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    box-sizing: content-box;
-    text-align: justify;
+    width: 50%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     color: #40434E;
 }
 
-/*padding here to allow more space between sections*/
-
-section {
-    padding-top: 25px;
-    padding-bottom: 25px;
+/*making the ruler lines */
+hr {
+    max-width: 66%;
 }
 
 h2 {
